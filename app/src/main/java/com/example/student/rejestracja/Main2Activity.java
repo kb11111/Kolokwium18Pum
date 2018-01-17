@@ -2,6 +2,7 @@ package com.example.student.rejestracja;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -25,5 +26,11 @@ public class Main2Activity extends AppCompatActivity {
         doctors.add(new Doctors("Anna Kulacz","stomatolog"));
         doctors.add(new Doctors("Jacek Krasik","pediatra"));
 
+
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+        recycler.setLayoutManager(layoutManager);
+
+        DoctorAdapter doctorAdaper = new  DoctorAdapter(doctors);
+        recycler.setAdapter(doctorAdaper);
     }
 }
