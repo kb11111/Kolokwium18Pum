@@ -19,7 +19,7 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         ButterKnife.bind(this);
 
-        Bundle przekazanedane = getIntent().getExtras();
+
        ArrayList<Doctors>doctors=new ArrayList<>();
         doctors.add(new Doctors("Jan Kowalski","dermatolog"));
         doctors.add(new Doctors("Katarzyna Bielecka","chirurg"));
