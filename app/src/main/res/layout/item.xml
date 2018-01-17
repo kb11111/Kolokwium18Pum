@@ -11,6 +11,7 @@
         android:text="Jan Kowalski"
         android:textStyle="bold"
         android:textSize="20dp"
+        android:layout_marginTop="20dp"
 
 
         android:textColor="@color/colorAccent"
@@ -24,7 +25,7 @@
         android:textColor="@color/colorAccent"
         android:layout_marginRight="10dp"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="50dp"
 
 
         />
@@ -37,7 +38,7 @@
         android:gravity="center"
         android:text="Wybierz"
 
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="55dp"
         android:textColor="@android:color/white"
         android:background="@color/colorPrimary"/>
 </RelativeLayout>
